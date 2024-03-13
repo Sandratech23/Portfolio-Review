@@ -1,0 +1,26 @@
+
+    .contactLinks {
+      height: 50px;
+      width: 300px;
+      border: 1px solid var(--font-color);
+      margin: 10px auto;
+      padding: 5px;
+      text-align: center;
+      transition: width 0.3s ease; 
+      box-sizing: border-box; 
+  }
+  
+  .contactLinks:hover {
+      border: 1px solid var(--card-bg);
+      width: 330px;
+  }
+  
+  .links {
+      text-decoration: none;
+      color: var(--font-color);
+  }
+  
+  .links:hover {
+      color: red;
+  }
+  

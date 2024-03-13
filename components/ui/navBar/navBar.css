@@ -1,0 +1,20 @@
+.logo{text-decoration: none;color: var(--card-bg); margin-left: 30px;}
+  .navBar{
+    width: 100%; height: 40px; display: flex; padding-top: 30px;justify-content: space-between; background-color: var(--font-color);
+  }
+  .navBarLinks{padding: 1px 15px; margin-right: 20px; text-decoration: none; color:var(--card-bg)}
+
+.navBarLinks:hover{color:white}
+  @media (max-width: 700px) {
+ .navBarLinks{font-size: x-small; padding: 1px 8px; margin-right: 10px;}
+ .logo{font-size: x-small;}  
+  }
+
+  @media (max-width: 600px) {
+    .navBarLinks{font-size:xx-small; padding: 1px 8px; margin-right: 10px;}
+    .logo{font-size: x-small;}   
+     }
+
+     @media (max-width: 900px) {
+      .navBarLinks{ padding: 1px 8px; margin-right: 10px;}
+       }

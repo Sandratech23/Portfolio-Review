@@ -1,0 +1,28 @@
+
+
+    .workBox{height:60vh;
+    width: 100%; display: flex; gap: 20px;
+    flex-flow:wrap;
+    }
+  .subs{color:grey; padding-top: 10px;}
+.work-details{height: 320px; width: 400px;
+  background-color: rgb(164, 192, 196); color: var(--font-color);
+  margin-top: 30px; text-align:left; padding: 5px; }
+  .work-view{border-radius: 3%; height: 200px; width: 300px; margin-left: 50px; margin-top: 10px;} 
+
+ 
+  @media (max-width: 1200px) {
+ 
+    .workBox{display: flex; flex-wrap: wrap; height: 100%;}
+}
+@media(max-width:900px){
+  
+  .workBox{display: block; flex-wrap: nowrap; margin-left: 50px; height: 100%;}
+}
+  @media (max-width: 690px) {
+  
+  .workBox{display: block; flex-wrap: nowrap; height: 100%;}
+   .work-details{height: 250px; width: 300px;} 
+   .work-view{height: 150px; width: 200px;}
+  }
+ 

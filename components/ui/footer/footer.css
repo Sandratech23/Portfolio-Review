@@ -1,0 +1,13 @@
+.page-footer{
+    margin:2px 20px;
+    color:var(--font-color);
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    /* position: absolute;  */
+    width: 98%;
+    height: 100px;
+   bottom:0px;
+
+}
+
